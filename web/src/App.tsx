@@ -1,11 +1,10 @@
 import React from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div>
-      <h1>Next Level Week</h1>
-    </div>
-  );
-}
+import Routes from "./routes";
+
+const App: React.FC = () => {
+  return <Routes />;
+};
 
 export default App;
